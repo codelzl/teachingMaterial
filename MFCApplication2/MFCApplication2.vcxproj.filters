@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MFCApplication2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MFCApplication2Dlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Register.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Teacher.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Academy.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Textbook.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Teacher_Information.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Teacher_Demand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Teacher_Subscriptions.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Academy_Information.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Teacher_Information_Modify.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="adodc1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="datagrid1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CAdodc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CDataGrid.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Academy_Teacher.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Acamedy_Textbook.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Textbook_Textbook.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Textbook_Teacher.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Textbook_Information.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Textbook_Notice.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Textbook_Verify.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Textbook_Academy.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ADOConn.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Textbook_Textbook_Add.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Textbook_Academy_Add.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Textbook_Academy_Details.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Textbook_Academy_Details_Add.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Textbook_Academy_Details_Modify.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Teacher_Subscriptions_Past.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Academy_Verify.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Academy_Teacher_Add.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Textbook_Verify_Details.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Del_Ok.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MFCApplication2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MFCApplication2Dlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Register.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Teacher.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Academy.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Textbook.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Teacher_Information.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Teacher_Demand.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Teacher_Subscriptions.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Academy_Information.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Teacher_Information_Modify.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="adodc1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="datagrid1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CAdodc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CDataGrid.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Academy_Teacher.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Acamedy_Textbook.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Textbook_Textbook.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Textbook_Teacher.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Textbook_Information.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Textbook_Notice.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Textbook_Verify.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Textbook_Academy.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ADOConn.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Textbook_Textbook_Add.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Textbook_Academy_Add.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Textbook_Academy_Details.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Textbook_Academy_Details_Add.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Textbook_Academy_Details_Modify.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Teacher_Subscriptions_Past.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Academy_Verify.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Academy_Teacher_Add.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Textbook_Verify_Details.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Del_Ok.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MFCApplication2.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\MFCApplication2.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\MFCApplication2.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

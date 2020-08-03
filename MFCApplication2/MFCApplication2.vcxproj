@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B0AE8F54-B619-4333-A285-526C067E6605}</ProjectGuid>
+    <RootNamespace>MFCApplication2</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Academy.h" />
+    <ClInclude Include="Academy_Information.h" />
+    <ClInclude Include="Academy_Teacher.h" />
+    <ClInclude Include="Academy_Teacher_Add.h" />
+    <ClInclude Include="Academy_Verify.h" />
+    <ClInclude Include="Acamedy_Textbook.h" />
+    <ClInclude Include="ADOConn.h" />
+    <ClInclude Include="adodc1.h" />
+    <ClInclude Include="CAdodc.h" />
+    <ClInclude Include="CDataGrid.h" />
+    <ClInclude Include="datagrid1.h" />
+    <ClInclude Include="Del_Ok.h" />
+    <ClInclude Include="MFCApplication2.h" />
+    <ClInclude Include="MFCApplication2Dlg.h" />
+    <ClInclude Include="Register.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="Teacher.h" />
+    <ClInclude Include="Teacher_Demand.h" />
+    <ClInclude Include="Teacher_Information.h" />
+    <ClInclude Include="Teacher_Information_Modify.h" />
+    <ClInclude Include="Teacher_Subscriptions.h" />
+    <ClInclude Include="Teacher_Subscriptions_Past.h" />
+    <ClInclude Include="Textbook.h" />
+    <ClInclude Include="Textbook_Academy.h" />
+    <ClInclude Include="Textbook_Academy_Add.h" />
+    <ClInclude Include="Textbook_Academy_Details.h" />
+    <ClInclude Include="Textbook_Academy_Details_Add.h" />
+    <ClInclude Include="Textbook_Academy_Details_Modify.h" />
+    <ClInclude Include="Textbook_Information.h" />
+    <ClInclude Include="Textbook_Notice.h" />
+    <ClInclude Include="Textbook_Teacher.h" />
+    <ClInclude Include="Textbook_Textbook.h" />
+    <ClInclude Include="Textbook_Textbook_Add.h" />
+    <ClInclude Include="Textbook_Verify.h" />
+    <ClInclude Include="Textbook_Verify_Details.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Academy.cpp" />
+    <ClCompile Include="Academy_Information.cpp" />
+    <ClCompile Include="Academy_Teacher.cpp" />
+    <ClCompile Include="Academy_Teacher_Add.cpp" />
+    <ClCompile Include="Academy_Verify.cpp" />
+    <ClCompile Include="Acamedy_Textbook.cpp" />
+    <ClCompile Include="ADOConn.cpp" />
+    <ClCompile Include="adodc1.cpp" />
+    <ClCompile Include="CAdodc.cpp" />
+    <ClCompile Include="CDataGrid.cpp" />
+    <ClCompile Include="datagrid1.cpp" />
+    <ClCompile Include="Del_Ok.cpp" />
+    <ClCompile Include="MFCApplication2.cpp" />
+    <ClCompile Include="MFCApplication2Dlg.cpp" />
+    <ClCompile Include="Register.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Teacher.cpp" />
+    <ClCompile Include="Teacher_Demand.cpp" />
+    <ClCompile Include="Teacher_Information.cpp" />
+    <ClCompile Include="Teacher_Information_Modify.cpp" />
+    <ClCompile Include="Teacher_Subscriptions.cpp" />
+    <ClCompile Include="Teacher_Subscriptions_Past.cpp" />
+    <ClCompile Include="Textbook.cpp" />
+    <ClCompile Include="Textbook_Academy.cpp" />
+    <ClCompile Include="Textbook_Academy_Add.cpp" />
+    <ClCompile Include="Textbook_Academy_Details.cpp" />
+    <ClCompile Include="Textbook_Academy_Details_Add.cpp" />
+    <ClCompile Include="Textbook_Academy_Details_Modify.cpp" />
+    <ClCompile Include="Textbook_Information.cpp" />
+    <ClCompile Include="Textbook_Notice.cpp" />
+    <ClCompile Include="Textbook_Teacher.cpp" />
+    <ClCompile Include="Textbook_Textbook.cpp" />
+    <ClCompile Include="Textbook_Textbook_Add.cpp" />
+    <ClCompile Include="Textbook_Verify.cpp" />
+    <ClCompile Include="Textbook_Verify_Details.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MFCApplication2.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\MFCApplication2.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\MFCApplication2.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties _x007B_67397AA3-7FB1-11D0-B148-00A0C922E820_x007D_="CAdodc1" _x007B_CDE57A43-8B86-11D0-B3C6-00A0C90AEA82_x007D_="CDatagrid1" RESOURCE_FILE="MFCApplication2.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

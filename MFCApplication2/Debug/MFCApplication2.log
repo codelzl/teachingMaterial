@@ -1,0 +1,48 @@
+﻿生成启动时间为 2016/6/15 星期三 下午 4:02:10。
+     1>项目“E:\C++_workspace\连接数据库\MFCApplication2\MFCApplication2\MFCApplication2.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\MFCApplication2.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Textbook_Notice.cpp
+         Textbook_Notice.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\C++_workspace\连接数据库\MFCApplication2\Debug\MFCApplication2.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"E:\C++_workspace\连接数据库\MFCApplication2\Debug\MFCApplication2.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\C++_workspace\连接数据库\MFCApplication2\Debug\MFCApplication2.lib" /MACHINE:X86 Debug\MFCApplication2.res
+         Debug\Academy.obj
+         Debug\Academy_Information.obj
+         Debug\Academy_Teacher.obj
+         Debug\Academy_Teacher_Add.obj
+         Debug\Academy_Verify.obj
+         Debug\Acamedy_Textbook.obj
+         Debug\ADOConn.obj
+         Debug\adodc1.obj
+         Debug\CAdodc.obj
+         Debug\CDataGrid.obj
+         Debug\datagrid1.obj
+         Debug\Del_Ok.obj
+         Debug\MFCApplication2.obj
+         Debug\MFCApplication2Dlg.obj
+         Debug\Register.obj
+         Debug\stdafx.obj
+         Debug\Teacher.obj
+         Debug\Teacher_Demand.obj
+         Debug\Teacher_Information.obj
+         Debug\Teacher_Information_Modify.obj
+         Debug\Teacher_Subscriptions.obj
+         Debug\Teacher_Subscriptions_Past.obj
+         Debug\Textbook.obj
+         Debug\Textbook_Academy.obj
+         Debug\Textbook_Academy_Add.obj
+         Debug\Textbook_Academy_Details.obj
+         Debug\Textbook_Academy_Details_Add.obj
+         Debug\Textbook_Academy_Details_Modify.obj
+         Debug\Textbook_Information.obj
+         Debug\Textbook_Notice.obj
+         Debug\Textbook_Teacher.obj
+         Debug\Textbook_Textbook.obj
+         Debug\Textbook_Textbook_Add.obj
+         Debug\Textbook_Verify.obj
+         Debug\Textbook_Verify_Details.obj
+         MFCApplication2.vcxproj -> E:\C++_workspace\连接数据库\MFCApplication2\Debug\MFCApplication2.exe
+     1>已完成生成项目“E:\C++_workspace\连接数据库\MFCApplication2\MFCApplication2\MFCApplication2.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.18
