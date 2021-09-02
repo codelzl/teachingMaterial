@@ -1,5 +1,5 @@
 # teachingMaterial
-MFCApplication Teaching material management system 高校教材管理系统
+MFCApplication Teaching material management system 高校教材管理系统c
 ## 包含需求分析 用例图子系统顺序图等
 # 高校教材管理系统
 1.	引言
